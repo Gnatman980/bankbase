@@ -13,14 +13,14 @@ public class TestBank {
   /** @param args the command line arguments */
   public static void main(String[] args) {
 
-    CheckingAccount mine = new CheckingAccount("David Green", 200000);
+    CheckingAccount mine = new CheckingAccount("Jeremy Marcus", 2000);
     System.out.println("The account has " + mine.getBalance());
     System.out.println(mine);
 
     mine.deposit(1000);
     System.out.println(mine);
 
-    mine.withdraw(200000);
+    mine.withdraw(200);
     System.out.println(mine);
 
     // trying to remove too much
